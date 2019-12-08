@@ -38,3 +38,10 @@ Here is the spectogram of a sine wave (pure tone, single frequency).
 I recorded dialing my phone, converted the audio file to a .wav file (https://audio.online-convert.com/convert-to-wav) then obtained a spectogram using the tools talked about above. You can clearly see only two frequencies present at each instant of time as expected given that each button makes a sound of two pure tones superimposed on each other. As such, I can predict which notes were pressed. Here is the photo of the spectogram
 
 ![Screenshot](spectrogram.png)
+
+Robert Deniro: "You talkin to me"
+
+![Screenshot](talkin_to_me.png)
+
+
+# SPECTOGRAMS
