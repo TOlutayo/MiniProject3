@@ -23,4 +23,12 @@ Fig 3: Spectogram of Chirp Signal using signal.
 
 As can be observed from Fig2 and Fig3, the spectogram allows us to capture the time variation of the frequency of the chirp. The frequency increases with time. 
 
-### Generate Spectogram from .wav file using Python Libraries ###
+### Generate Spectogram from .wav file using Python Library Librosa
+This example involves viewing viewing the spectogram of an audio file. We have seen how two methods so far for spectogram visualization. The third, Librosa, provides methods to easily obtain the spectogram of any audio file. This can be used for so many things. For example, just by recording the phone dialing, we can tell exactly what buttons were pressed and exactly in what order. The picture below shows an implementation of spectogram obtained directly from the audio file.
+
+Here is an implementation:
+
+https://www.kaggle.com/msripooja/steps-to-convert-audio-clip-to-spectrogram
+
+### COOL ILLUSTRATIONS
+I recorded dialing my phone, converted the audio file to a .wav file (https://audio.online-convert.com/convert-to-wav) then obtained a spectogram using the tools talked about above. You can clearly see only two frequencies present at each instant of time as expected given that each button makes a sound of two pure tones superimposed on each other. As such, I can predict which notes were pressed. Here is the photo of the spectogram
