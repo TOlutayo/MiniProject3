@@ -47,5 +47,5 @@ Robert Deniro: "You talkin to me"
 # PERIODOGRAMS (Power Spectral Density (PSD))
 This is used to view the power spectral density (magnitude squared) of the signal. It is very useful in determining the frequency component with the most power spectral density. This information is relevant for different applications such as radar, and speech processing. In order to compute this, one must be able to compute the fourier transform of the input sequence (sampled analog data). There are two ways to achieve this. By using the DFT formula which has a computation time complexity of O(n^2) or the Fast Fourier Transform (FFT) algorithm with complexity O(log(n)). Python allows for both methods using inbuilt libraries from scipy.
 
-Here is a periodogram of a sine wave
+Here is a periodogram of the sum of two sine waves at 80 Hz and 150 Hz. 
 ![Screenshot](fftdemo.PNG)
