@@ -22,3 +22,5 @@ Another solution to visualize the chirp signal is to use the SIGNAL library from
 Fig 3: Spectogram of Chirp Signal using signal.
 
 As can be observed from Fig2 and Fig3, the spectogram allows us to capture the time variation of the frequency of the chirp. The frequency increases with time. 
+
+### Generate Spectogram from .wav file using Python Libraries ###
