@@ -18,6 +18,6 @@ Fig 2: Spectogram of Chirp Signal using only numpy and matplot lib.
 
 Another solution to visualize the chirp signal is to use the SIGNAL library. This makes for much easier to implement. 
 
-![Screenshot](Capture(1).PNG)
+![Screenshot](Capture (1).PNG)
 Fig 3: Spectogram of Chirp Signal using signal.
 
